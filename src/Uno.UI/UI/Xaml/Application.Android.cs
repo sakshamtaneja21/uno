@@ -12,7 +12,6 @@ namespace Windows.UI.Xaml
 	{
 		public Application()
 		{
-			Windows.UI.Xaml.GenericStyles.Initialize();
 			Window.Current.ToString();
 			Current = this;
 			PermissionsHelper.Initialize();
